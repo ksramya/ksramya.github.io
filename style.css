@@ -1,0 +1,120 @@
+html
+{
+	height:100%;
+}
+body
+{
+	text-align:center;
+}
+.home
+{
+}vertical-align:middle;
+height:100%;
+.flex
+{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text
+{
+	margin-top: 50pt;
+	font-size: 32pt;
+	line-height: 36pt;
+	color:#fff;
+}
+.small-text
+{
+	text-align: left !important;
+	margin-top: 20pt;
+	font-size: 15pt;
+	line-height: 30pt;
+	color:#fff;
+	margin-left: 10px;
+}
+.highlight
+{
+	color: #E31B6D;
+}
+.profile-image
+{
+	width: 200px;
+    height: 200px;
+	border-radius: 60%;
+    background-size: contain;
+	background-repeat: no-repeat;
+	margin-bottom:20pt;
+	margin-right:20pt;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b30059;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: black;
+}
+table, th , td  {
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding: 15px;
+  margin: 10px;
+}
+table tr:nth-child(odd) {
+  background-color: #f1f1f1;
+}
+table tr:nth-child(even) {
+  background-color: #ffffff;
+}
+.table-text
+{
+	font-weight: bold;
+}
+#map 
+{
+	margin: 20px 10px 10px 30px;
+	height: 400px;
+	width: 100%;
+	text-align: left;
+}
+.contact-address
+{
+	background: #337ab7;
+    padding: 20px;
+    border-radius: 25px;
+    color: #FFF;
+    font-size: 16px;
+	position: absolute;
+    top: 200px;
+    right: 200px;
+	width: 25%;
+    height: 50%;
+}
+.contact-content
+{
+	padding: 5px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+
